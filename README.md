@@ -1,5 +1,45 @@
-About Me
+# QA Portfolio – Sakshi Harekar
 
-Aspiring QA Engineer with hands-on experience in Manual Testing, API Testing, Postman, Swagger, SQL, and Playwright.
+Welcome to my QA Portfolio.
 
-This repository showcases real-world testing projects, test cases, bug reports, API validations, and automation exercises completed as part of my QA learning journey.
+This repository contains hands-on projects completed while learning Quality Assurance, including Manual Testing, API Testing, SQL, and Automation.
+
+## Skills Demonstrated
+
+- Test Case Design
+- Bug Reporting
+- Jira
+- Exploratory Testing
+- Regression Testing
+- API Testing with Postman
+- Swagger/OpenAPI
+- Authentication Testing
+- API Assertions
+
+## Projects
+
+### Manual Testing
+- Amazon Login Testing
+  - Test Plan
+  - Test Cases
+  - Bug Reports
+  - Test Execution Results
+
+### API Testing
+- Swagger Petstore API Testing
+  - API Test Cases
+  - Postman Collection
+  - Assertions
+  - Response Validation
+
+## Tools
+- Postman
+- Jira
+- Swagger
+- GitHub
+
+## Current Learning Roadmap
+- ✅ Manual Testing
+- ✅ API Testing
+- 🔄 SQL
+- ⬜ Automation Testing
