@@ -29,3 +29,45 @@ SELECT name FROM users;
 
 SELECT * FROM users
 WHERE id = 1;
+
+SELECT * FROM users
+WHERE id = 2;
+
+SELECT * FROM users
+WHERE city = 'Orlando';
+
+SELECT * FROM users
+ORDER BY id;
+
+SELECT * FROM users
+ORDER BY id DESC;
+
+SELECT * FROM users
+WHERE city = 'Orlando'
+AND id = 1;
+
+SELECT * FROM users
+WHERE city = 'Orlando'
+OR city = 'Miami';
+
+SELECT * FROM users
+WHERE name LIKE 'S%';
+
+SELECT * FROM users
+WHERE name LIKE '%a';
+
+SELECT * FROM users
+WHERE city IN ('Orlando', 'Miami');
+
+SELECT * FROM users
+WHERE name LIKE 'A%';
+
+SELECT * FROM users
+WHERE name LIKE '%a';
+
+SELECT * FROM users
+WHERE name LIKE '%lex%';
+
+SELECT * FROM users
+WHERE id BETWEEN 1 AND 3;
+
