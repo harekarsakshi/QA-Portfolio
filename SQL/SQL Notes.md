@@ -1,4 +1,4 @@
-# SQL Day 1 Notes
+# SQL Notes
 
 ## Database
 A database is a collection of organized data.
@@ -70,4 +70,14 @@ WHERE name LIKE '%lex%';
 
 SELECT * FROM users
 WHERE id BETWEEN 1 AND 3;
+
+SELECT users.name, orders.product
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id;
+
+SELECT students.name, courses.course
+FROM students
+LEFT JOIN courses
+ON students.student_id = courses.student_id;
 
